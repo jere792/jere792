@@ -15,21 +15,30 @@
 
 ### 🛠️ Tech Stack
 
-```python
-class Jeremy:
-    def __init__(self):
-        self.stack = {
-            "frontend": ["Angular", "TypeScript", "PrimeNG", "SCSS", "HTML5", "CSS3"],
-            "backend": ["Node.js", "Express", "GraphQL", "REST APIs"],
-            "databases": ["SQL Server", "MySQL", "MongoDB"],
-            "tools": ["Git", "VSCode", "Postman", "Cloudinary", "JWT Auth"],
-            "infrastructure": ["Rocky Linux", "Windows Server", "Networking"]
-        }
-    
-    def build_project(self, type):
-        if type == "web":
-            return self.stack["frontend"] + self.stack["backend"]
-        elif type == "api":
-            return ["Express", "Node.js", "SQL Server", "JWT Auth", "GraphQL"]
-        else:
-            return "Proyecto personalizado ✨"
+```typescript
+class Jeremy {
+  private stack = {
+    frontend: ["Angular", "TypeScript", "PrimeNG", "SCSS", "HTML5", "CSS3"],
+    backend: ["Node.js", "Express", "GraphQL", "REST APIs"],
+    databases: ["SQL Server", "MySQL", "MongoDB"],
+    tools: ["Git", "VSCode", "Postman", "Cloudinary", "JWT Auth"],
+    infrastructure: ["Rocky Linux", "Windows Server", "Networking"]
+  };
+
+  buildProject(type: "web" | "api" | "fullstack"): string[] | string {
+    switch (type) {
+      case "web":
+        return [...this.stack.frontend, ...this.stack.backend];
+      case "api":
+        return ["Express", "Node.js", "SQL Server", "JWT Auth", "GraphQL"];
+      case "fullstack":
+        return [...this.stack.frontend, ...this.stack.backend, ...this.stack.databases];
+      default:
+        return "Proyecto personalizado ✨";
+    }
+  }
+
+  getCurrentFocus(): string {
+    return "Building modern web applications with Angular & TypeScript 🚀";
+  }
+}
