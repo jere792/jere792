@@ -34,11 +34,11 @@ class Jeremy {
       case "fullstack":
         return [...this.stack.frontend, ...this.stack.backend, ...this.stack.databases];
       default:
-        return "Proyecto personalizado ✨";
+        return "Proyecto personalizado";
     }
   }
 
   getCurrentFocus(): string {
-    return "Building modern web applications with Angular & TypeScript 🚀";
+    return "Building modern web applications with Angular & TypeScript";
   }
 }
