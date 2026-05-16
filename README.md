@@ -3,14 +3,14 @@
 ## Full‑Stack / Frontend Developer & Co‑Founder en Solvegrades  
 
 💻 Full‑Stack / Frontend Developer con sólidos fundamentos en backend, bases de datos, redes y sistemas operativos  
-🚀 Co‑Founder en **Solvegrades**, construyendo soluciones web escalables orientadas a educación  
+🚀 Co‑Founder en **Solvegrades**, startup EdTech donde construyo soluciones web escalables orientadas a educación  
 🎨 Especializado en crear interfaces modernas y responsivas con **Angular** y **TypeScript**  
 🌐 Experiencia en integración de APIs REST/GraphQL y arquitectura de aplicaciones web  
 🔧 Fundamentos en backend con **Node.js** y **Express**  
 🗄️ Conocimientos en **SQL Server, MySQL y MongoDB**, diseño de esquemas y optimización de consultas  
 🖥️ Base técnica en redes y administración de sistemas operativos  
 📊 Apasionado por crear dashboards interactivos y experiencias de usuario intuitivas  
-🤝 Abierto a colaboraciones en proyectos de impacto educativo o social
+🤝 Abierto a colaboraciones y oportunidades como practicante o developer en proyectos de impacto educativo o social
 
 ---
 
