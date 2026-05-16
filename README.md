@@ -1,8 +1,9 @@
-# Hi, I'm Jeremy 👨‍💻 👋
+# Hi, I'm Jeremy 👨‍💻 👋  
 
-## Frontend Developer
+## Full‑Stack / Frontend Developer & Co‑Founder en Solvegrades  
 
-💻 Desarrollador Frontend con sólidos fundamentos en backend, bases de datos, redes y sistemas operativos  
+💻 Full‑Stack / Frontend Developer con sólidos fundamentos en backend, bases de datos, redes y sistemas operativos  
+🚀 Co‑Founder en **Solvegrades**, construyendo soluciones web escalables orientadas a educación  
 🎨 Especializado en crear interfaces modernas y responsivas con **Angular** y **TypeScript**  
 🌐 Experiencia en integración de APIs REST/GraphQL y arquitectura de aplicaciones web  
 🔧 Fundamentos en backend con **Node.js** y **Express**  
